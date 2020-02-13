@@ -946,6 +946,7 @@ parcelRequire = function (e, r, t, n) {
                     index: t
                 })
             };
+            
         document.addEventListener("DOMContentLoaded", chrome.bookmarks.getSubTree("1", n));
     }, {
         "sortablejs": "tZHd"
