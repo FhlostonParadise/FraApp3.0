@@ -14,6 +14,27 @@
         <div class="container is-fluid has-text-centered">
                 <div id="time" class="is-size-1 has-text-white">5:25</div>
                 <div id="dateString" class="subtitle has-text-grey-light">Date<br></div>
+                <div class= "container containerWeather">
+                    <div class="level forecast">
+                        <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading has-text-white">Current Temperature</p>
+                            <span class="is-size-3 temperature-degree has-text-white">32</span><span class="is-size-3 has-text-white">&nbsp;F°</span>
+                        </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                        <div>
+                            <canvas id="skycon" class="skycon" width="64" height="64"></canvas>
+                        </div>
+                        </div>
+                        <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading has-text-white">Currently</p>
+                            <p class="is-size-3 temperature-description has-text-white">F'ing Cold</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="searchform">
                     <form action="http://google.com/search" method="get">
                         <div id="search-container" class="input-container"><select name="provider">
@@ -25,12 +46,14 @@
         </form>
     </div>
     </section>
-    <section class="section">
+    <section class="sectionBkms">
         <div class="containerBkms container">
             <div id="ntp" class="buttons"></div>
         </div>
     </section>
     <script src="/js/FraApp.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/weather.js"></script>
+    <script src="/js/skycons.js"></script>
 </body>
 </html>
