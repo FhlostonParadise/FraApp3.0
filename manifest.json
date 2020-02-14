@@ -20,7 +20,7 @@
    },
    "manifest_version": 2,
    "name": "FraApp",
-   "permissions": [ "tabs", "bookmarks", "storage", "topSites", "chrome://favicon/" ],
+   "permissions": [ "tabs", "bookmarks", "storage", "topSites", "chrome://favicon/", "geolocation" ],
    "version": "3.0",
    "web_accessible_resources": [ "src/icons/*.png" ]
 }
