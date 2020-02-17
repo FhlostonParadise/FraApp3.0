@@ -9,8 +9,13 @@ body {
 html, body {
     height: 100%;
     background-size: cover;
-    background-image: url(/img/bg.jpg);
 }
+
+.bgImage {
+    background-color:grey;
+    background-image: url("/img/bg.jpg");
+    background-size: cover;
+    }
 
 #ntp {
     display: flex;

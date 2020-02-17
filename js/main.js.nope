@@ -1,8 +1,0 @@
-
-document.body.style.backgroundImage = "url('img/bg.jpg')";
-
-d = new Date();
-document.getElementById("dateString").innerHTML = d.toDateString();
-
-// Run
-
