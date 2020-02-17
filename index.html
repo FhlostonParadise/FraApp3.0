@@ -8,15 +8,15 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/vendor/fontawesome/all.min.css">
     <link rel="stylesheet" type="text/css" href="/css/background.css">
+    <link rel="stylesheet" type="text/css" href="/css/vendor/flipclock/flipclock.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     
 </head>
-<body id="random">
+<body>
     <section class="section">
         <div class="container is-fluid has-text-centered">
             <div class="containerTime">
-                <div id="time" class="is-size-1 has-text-white">5:25</div>
-                <div id="dateString" class="subtitle has-text-grey-light">Date<br></div>
+                <div class="clock"></div>
             </div>
                 <div class= "container containerWeather">
                     <div class="level forecast">
@@ -56,8 +56,12 @@
         </div>
     </section>
     <script src="/js/FraApp.js"></script>
-    <script src="/js/main.js"></script>
+    <!-- <script src="/js/main.js"></script> -->
     <script src="/js/weather.js"></script>
     <script src="/js/skycons.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/vendor/flipclock/flipclock.js"></script>
+    <script src="/js/clock.js"></script>
+    <script src="/js/vendor/moment.js"></script>
 </body>
 </html>
